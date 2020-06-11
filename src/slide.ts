@@ -66,7 +66,7 @@ ${selector}.slide-right {
     right: 0;
     bottom: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 ${selector}.slide-up-enter-done,
