@@ -1,0 +1,15 @@
+import crayon from "crayon";
+export declare const loader: (seletor?: string) => crayon.handlerFunc;
+export declare const slideUp = "slide-up";
+export declare const slideDown = "slide-down";
+export declare const slideLeft = "slide-left";
+export declare const slideRight = "slide-right";
+export declare const pushUp = "push-up";
+export declare const pushDown = "push-down";
+export declare const pushLeft = "push-left";
+export declare const pushRight = "push-right";
+export declare const popUp = "pop-up";
+export declare const popDown = "pop-down";
+export declare const popLeft = "pop-left";
+export declare const popRight = "pop-right";
+export declare const fade = "fade";
