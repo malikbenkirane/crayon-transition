@@ -19,6 +19,7 @@ ${selector}.fade-enter {
 
 ${selector}.fade-enter-done {
     opacity: 1;
+    height: 100%;
 }
 
 ${selector}.fade-exit {
