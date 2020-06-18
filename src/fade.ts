@@ -2,6 +2,7 @@ export const fade = (selector: string) => `
 ${selector}.fade {
     opacity: 0;
     transition: opacity .5s;
+    height: 100%;
 }
 
 ${selector}.fade-enter-first {
@@ -19,7 +20,6 @@ ${selector}.fade-enter {
 
 ${selector}.fade-enter-done {
     opacity: 1;
-    height: 100%;
 }
 
 ${selector}.fade-exit {
